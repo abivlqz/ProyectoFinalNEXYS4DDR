@@ -1,0 +1,850 @@
+
+*** Running vivado
+    with args -log LIB_LCD_INTESC_REVD.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source LIB_LCD_INTESC_REVD.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source LIB_LCD_INTESC_REVD.tcl -notrace
+Command: synth_design -top LIB_LCD_INTESC_REVD -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1648 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 357.406 ; gain = 99.355
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'LIB_LCD_INTESC_REVD' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:210]
+	Parameter FPGA_CLK bound to: 100000000 - type: integer 
+	Parameter FPGA_CLK bound to: 100000000 - type: integer 
+	Parameter NUM_INST bound to: 38 - type: integer 
+INFO: [Synth 8-3491] module 'PROCESADOR_LCD_REVD' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/PROCESADOR_LCD_REVD.vhd:10' bound to instance 'u1' of component 'PROCESADOR_LCD_REVD' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:341]
+INFO: [Synth 8-638] synthesizing module 'PROCESADOR_LCD_REVD' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/PROCESADOR_LCD_REVD.vhd:31]
+	Parameter FPGA_CLK bound to: 100000000 - type: integer 
+	Parameter NUM_INST bound to: 38 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'PROCESADOR_LCD_REVD' (1#1) [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/PROCESADOR_LCD_REVD.vhd:31]
+INFO: [Synth 8-3491] module 'CARACTERES_ESPECIALES_REVD' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/CARACTERES_ESPECIALES_REVD.vhd:4' bound to instance 'U2' of component 'CARACTERES_ESPECIALES_REVD' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:348]
+INFO: [Synth 8-638] synthesizing module 'CARACTERES_ESPECIALES_REVD' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/CARACTERES_ESPECIALES_REVD.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'CARACTERES_ESPECIALES_REVD' (2#1) [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/CARACTERES_ESPECIALES_REVD.vhd:12]
+INFO: [Synth 8-3491] module 'one_shot' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/new/one_shot.vhd:34' bound to instance 'OS1' of component 'one_shot' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:355]
+INFO: [Synth 8-638] synthesizing module 'one_shot' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/new/one_shot.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'one_shot' (3#1) [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/new/one_shot.vhd:40]
+	Parameter CLOCKFREQ bound to: 100 - type: integer 
+INFO: [Synth 8-3491] module 'TempSensorCtl' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TempSensorCtl.vhdl:42' bound to instance 'TC1' of component 'TempSensorCtl' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:356]
+INFO: [Synth 8-638] synthesizing module 'TempSensorCtl' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TempSensorCtl.vhdl:59]
+	Parameter CLOCKFREQ bound to: 100 - type: integer 
+	Parameter CLOCKFREQ bound to: 100 - type: integer 
+	Parameter ATTEMPT_SLAVE_UNBLOCK bound to: 1 - type: bool 
+INFO: [Synth 8-3491] module 'TWICtl' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:68' bound to instance 'Inst_TWICtl' of component 'TWICtl' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TempSensorCtl.vhdl:164]
+INFO: [Synth 8-638] synthesizing module 'TWICtl' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:132]
+	Parameter CLOCKFREQ bound to: 100 - type: integer 
+	Parameter ATTEMPT_SLAVE_UNBLOCK bound to: 1 - type: bool 
+INFO: [Synth 8-5534] Detected attribute (* fsm_encoding = "gray" *) [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:144]
+INFO: [Synth 8-226] default block is never used [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:357]
+INFO: [Synth 8-226] default block is never used [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:375]
+INFO: [Synth 8-226] default block is never used [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:393]
+INFO: [Synth 8-226] default block is never used [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:411]
+INFO: [Synth 8-226] default block is never used [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:429]
+INFO: [Synth 8-226] default block is never used [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:447]
+WARNING: [Synth 8-614] signal 'timeOutCnt' is read in the process but is not in the sensitivity list [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:500]
+WARNING: [Synth 8-6014] Unused sequential element errTypeR_reg was removed.  [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:335]
+WARNING: [Synth 8-3936] Found unconnected internal register 'sync_scl_reg' and it is trimmed from '3' to '2' bits. [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:172]
+WARNING: [Synth 8-3848] Net ERRTYPE_O in module/entity TWICtl does not have driver. [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:121]
+INFO: [Synth 8-256] done synthesizing module 'TWICtl' (4#1) [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TWICtl.vhdl:132]
+INFO: [Synth 8-226] default block is never used [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TempSensorCtl.vhdl:329]
+WARNING: [Synth 8-614] signal 'initA' is read in the process but is not in the sensitivity list [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TempSensorCtl.vhdl:324]
+INFO: [Synth 8-256] done synthesizing module 'TempSensorCtl' (5#1) [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/imports/PFV3_Raul_Sebas/TempSensorCtl.vhdl:59]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'binary_bcd' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/new/BINARYtoBCD.vhd:5' bound to instance 'bcdtemp' of component 'binary_bcd' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:363]
+INFO: [Synth 8-638] synthesizing module 'binary_bcd' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/new/BINARYtoBCD.vhd:14]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'binary_bcd' (6#1) [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/new/BINARYtoBCD.vhd:14]
+INFO: [Synth 8-3491] module 'BCDtoASCII' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/new/BCDtoASCII.vhd:7' bound to instance 'temp0ascii' of component 'BCDtoASCII' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:378]
+INFO: [Synth 8-638] synthesizing module 'BCDtoASCII' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/new/BCDtoASCII.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'BCDtoASCII' (7#1) [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/new/BCDtoASCII.vhd:12]
+INFO: [Synth 8-3491] module 'BCDtoASCII' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/new/BCDtoASCII.vhd:7' bound to instance 'temp1ascii' of component 'BCDtoASCII' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:379]
+INFO: [Synth 8-3491] module 'BCDtoASCII' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/new/BCDtoASCII.vhd:7' bound to instance 'temp2ascii' of component 'BCDtoASCII' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:380]
+INFO: [Synth 8-3491] module 'BCDtoASCII' declared at 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/new/BCDtoASCII.vhd:7' bound to instance 'temp3ascii' of component 'BCDtoASCII' [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:381]
+WARNING: [Synth 8-3848] Net reset in module/entity LIB_LCD_INTESC_REVD does not have driver. [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:323]
+INFO: [Synth 8-256] done synthesizing module 'LIB_LCD_INTESC_REVD' (8#1) [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:210]
+WARNING: [Synth 8-3331] design TWICtl has unconnected port ERRTYPE_O
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 436.551 ; gain = 178.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin bcdtemp:reset to constant 0 [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/LIB_LCD_INTESC_REVD.vhd:363]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 436.551 ; gain = 178.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 436.551 ; gain = 178.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/constrs_1/imports/LCD/Nexys-4-DDR-Master.xdc]
+Finished Parsing XDC File [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/constrs_1/imports/LCD/Nexys-4-DDR-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/constrs_1/imports/LCD/Nexys-4-DDR-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/LIB_LCD_INTESC_REVD_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/LIB_LCD_INTESC_REVD_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 794.305 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 794.305 ; gain = 536.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 794.305 ; gain = 536.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 794.305 ; gain = 536.254
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'data_s_reg' and it is trimmed from '9' to '8' bits. [C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.srcs/sources_1/INTESC_LCD_8BITS_RevD/PROCESADOR_LCD_REVD.vhd:273]
+INFO: [Synth 8-802] inferred FSM for state register 'edo_reg' in module 'PROCESADOR_LCD_REVD'
+INFO: [Synth 8-802] inferred FSM for state register 'edo_enable_reg' in module 'PROCESADOR_LCD_REVD'
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "edo" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "edo" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "edo" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "edo_enable" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "edo" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "edo" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "edo" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "edo_enable" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BD_LCD" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BD_LCD" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BD_LCD" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "BD_LCD" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'TWICtl'
+INFO: [Synth 8-5546] ROM "busState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "subState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "nstate" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "latchAddr" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "subState" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ERR_O" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "retryCntEn" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "retryCnt" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nstate" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "TempSensInitMap" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'binary_bcd'
+INFO: [Synth 8-5546] ROM "binary_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "state_next" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "bcds_out_reg_next" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                              001 |                               00
+                 iSTATE1 |                              010 |                               01
+                  iSTATE |                              100 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'edo_enable_reg' using encoding 'one-hot' in module 'PROCESADOR_LCD_REVD'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                iSTATE24 |                           000000 |                          0000000
+                iSTATE23 |                           000001 |                          0000001
+                iSTATE12 |                           000010 |                          0011110
+                 iSTATE7 |                           000011 |                          0011111
+                iSTATE21 |                           000100 |                          0000010
+                iSTATE20 |                           000101 |                          0000011
+                 iSTATE2 |                           000110 |                          0000100
+                 iSTATE0 |                           000111 |                          0000101
+                iSTATE61 |                           001000 |                          0000110
+                iSTATE59 |                           001001 |                          0000111
+                 iSTATE1 |                           001010 |                          0001000
+                  iSTATE |                           001011 |                          0001001
+                iSTATE60 |                           001100 |                          0001010
+                iSTATE57 |                           001101 |                          0001011
+                iSTATE41 |                           001110 |                          0001100
+                iSTATE40 |                           001111 |                          0001101
+                iSTATE38 |                           010000 |                          0001110
+                iSTATE35 |                           010001 |                          0001111
+                iSTATE58 |                           010010 |                          0010000
+                iSTATE56 |                           010011 |                          0010001
+                iSTATE53 |                           010100 |                          0010010
+                iSTATE52 |                           010101 |                          0010011
+                iSTATE37 |                           010110 |                          0010100
+                iSTATE34 |                           010111 |                          0010101
+                iSTATE31 |                           011000 |                          0010110
+                iSTATE30 |                           011001 |                          0010111
+                iSTATE33 |                           011010 |                          0011001
+                iSTATE29 |                           011011 |                          0011010
+                iSTATE27 |                           011100 |                          0011011
+                iSTATE18 |                           011101 |                          0011100
+                iSTATE15 |                           011110 |                          0011101
+                iSTATE39 |                           011111 |                          0100000
+                iSTATE36 |                           100000 |                          0100001
+                iSTATE32 |                           100001 |                          0100010
+                iSTATE28 |                           100010 |                          0100011
+                iSTATE19 |                           100011 |                          0100100
+                iSTATE17 |                           100100 |                          0100101
+                iSTATE13 |                           100101 |                          0100110
+                iSTATE10 |                           100110 |                          0100111
+                iSTATE16 |                           100111 |                          0101000
+                iSTATE14 |                           101000 |                          0101001
+                 iSTATE9 |                           101001 |                          0101010
+                 iSTATE6 |                           101010 |                          0101011
+                iSTATE55 |                           101011 |                          0101100
+                iSTATE54 |                           101100 |                          0101101
+                iSTATE50 |                           101101 |                          0101110
+                iSTATE47 |                           101110 |                          0101111
+                iSTATE11 |                           101111 |                          0110000
+                 iSTATE8 |                           110000 |                          0110001
+                 iSTATE4 |                           110001 |                          0110010
+                 iSTATE3 |                           110010 |                          0110011
+                iSTATE51 |                           110011 |                          0110100
+                iSTATE48 |                           110100 |                          0110101
+                iSTATE45 |                           110101 |                          0110110
+                iSTATE43 |                           110110 |                          0110111
+                iSTATE49 |                           110111 |                          0111000
+                iSTATE46 |                           111000 |                          0111001
+                iSTATE44 |                           111001 |                          0111010
+                iSTATE42 |                           111010 |                          0111011
+                iSTATE26 |                           111011 |                          0111100
+                iSTATE25 |                           111100 |                          0111101
+                iSTATE22 |                           111101 |                          1100011
+                 iSTATE5 |                           111110 |                          1100100
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'edo_reg' using encoding 'sequential' in module 'PROCESADOR_LCD_REVD'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  stidle |                             0001 |                             0000
+                 ststart |                             1111 |                             0001
+                 stwrite |                             0000 |                             0011
+                  stsack |                             0010 |                             0110
+                  stread |                             0111 |                             0010
+            stmnackstart |                             0110 |                             1001
+                  stmack |                             0100 |                             0111
+             stmnackstop |                             0101 |                             1000
+                  ststop |                             0011 |                             0101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'gray' in module 'TWICtl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   start |                              001 |                               00
+                   shift |                              010 |                               01
+                    done |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'binary_bcd'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 794.305 ; gain = 536.254
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 5     
+	   2 Input      3 Bit       Adders := 2     
+	   2 Input      2 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               23 Bit    Registers := 1     
+	               20 Bit    Registers := 2     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 2     
+	                8 Bit    Registers := 40    
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                3 Bit    Registers := 4     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 19    
++---Muxes : 
+	   8 Input     40 Bit        Muxes := 1     
+	   2 Input     23 Bit        Muxes := 5     
+	   3 Input     20 Bit        Muxes := 1     
+	   4 Input     17 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 1     
+	   3 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	  63 Input      8 Bit        Muxes := 2     
+	  11 Input      8 Bit        Muxes := 1     
+	  25 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 2     
+	  12 Input      8 Bit        Muxes := 32    
+	   8 Input      7 Bit        Muxes := 1     
+	  74 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   9 Input      4 Bit        Muxes := 1     
+	  27 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 4     
+	   2 Input      3 Bit        Muxes := 6     
+	   4 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 56    
+	   3 Input      1 Bit        Muxes := 10    
+	   8 Input      1 Bit        Muxes := 9     
+	  57 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 2     
+	  62 Input      1 Bit        Muxes := 2     
+	  61 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 1     
+	  56 Input      1 Bit        Muxes := 1     
+	  35 Input      1 Bit        Muxes := 1     
+	  34 Input      1 Bit        Muxes := 1     
+	  33 Input      1 Bit        Muxes := 1     
+	  29 Input      1 Bit        Muxes := 2     
+	  32 Input      1 Bit        Muxes := 2     
+	  28 Input      1 Bit        Muxes := 1     
+	  23 Input      1 Bit        Muxes := 2     
+	  38 Input      1 Bit        Muxes := 2     
+	  14 Input      1 Bit        Muxes := 1     
+	   4 Input      1 Bit        Muxes := 20    
+	   9 Input      1 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module LIB_LCD_INTESC_REVD 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 32    
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	  12 Input      8 Bit        Muxes := 32    
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	  12 Input      1 Bit        Muxes := 4     
+Module PROCESADOR_LCD_REVD 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     23 Bit       Adders := 1     
+	   2 Input     19 Bit       Adders := 1     
+	   3 Input     18 Bit       Adders := 1     
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	               40 Bit    Registers := 1     
+	               23 Bit    Registers := 1     
+	               17 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   8 Input     40 Bit        Muxes := 1     
+	   2 Input     23 Bit        Muxes := 5     
+	   3 Input     10 Bit        Muxes := 1     
+	   2 Input     10 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	  63 Input      8 Bit        Muxes := 2     
+	  11 Input      8 Bit        Muxes := 1     
+	  25 Input      8 Bit        Muxes := 1     
+	   8 Input      7 Bit        Muxes := 1     
+	  74 Input      6 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 19    
+	   3 Input      1 Bit        Muxes := 3     
+	   8 Input      1 Bit        Muxes := 2     
+	  57 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 1     
+	  10 Input      1 Bit        Muxes := 2     
+	  62 Input      1 Bit        Muxes := 2     
+	  61 Input      1 Bit        Muxes := 1     
+	  16 Input      1 Bit        Muxes := 1     
+	  56 Input      1 Bit        Muxes := 1     
+	  35 Input      1 Bit        Muxes := 1     
+	  34 Input      1 Bit        Muxes := 1     
+	  33 Input      1 Bit        Muxes := 1     
+	  29 Input      1 Bit        Muxes := 2     
+	  32 Input      1 Bit        Muxes := 2     
+	  28 Input      1 Bit        Muxes := 1     
+	  23 Input      1 Bit        Muxes := 2     
+	  38 Input      1 Bit        Muxes := 2     
+	  14 Input      1 Bit        Muxes := 1     
+Module one_shot 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module TWICtl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                8 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   9 Input      4 Bit        Muxes := 1     
+	  27 Input      4 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 31    
+	   4 Input      1 Bit        Muxes := 20    
+	   8 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 5     
+	   9 Input      1 Bit        Muxes := 1     
+Module TempSensorCtl 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     17 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 2     
+	   8 Input      8 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	   4 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   2 Input      2 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 4     
+Module binary_bcd 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               20 Bit    Registers := 2     
+	               16 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     20 Bit        Muxes := 1     
+	   3 Input     16 Bit        Muxes := 1     
+	   3 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "edo" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "p_1_in1" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Inst_TWICtl/subState" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "retryCntEn" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP temp_unsigned0, operation Mode is: A*(B:0x271).
+DSP Report: operator temp_unsigned0 is absorbed into DSP temp_unsigned0.
+INFO: [Synth 8-3886] merging instance 'TC1/Inst_TWICtl/currAddr_reg[6]' (FDE) to 'TC1/Inst_TWICtl/currAddr_reg[3]'
+INFO: [Synth 8-3886] merging instance 'TC1/Inst_TWICtl/currAddr_reg[7]' (FDE) to 'TC1/Inst_TWICtl/currAddr_reg[1]'
+INFO: [Synth 8-3886] merging instance 'TC1/Inst_TWICtl/currAddr_reg[1]' (FDE) to 'TC1/Inst_TWICtl/currAddr_reg[2]'
+INFO: [Synth 8-3886] merging instance 'TC1/Inst_TWICtl/currAddr_reg[2]' (FDE) to 'TC1/Inst_TWICtl/currAddr_reg[4]'
+INFO: [Synth 8-3886] merging instance 'TC1/Inst_TWICtl/currAddr_reg[3]' (FDE) to 'TC1/Inst_TWICtl/currAddr_reg[5]'
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\TC1/Inst_TWICtl/currAddr_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TC1/Inst_TWICtl/currAddr_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\TC1/Inst_TWICtl/int_Rst_reg )
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[10]' (FDE) to 'u1/vec_c_char_reg[17]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[30]' (FDE) to 'u1/vec_c_char_reg[27]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[20]' (FDE) to 'u1/vec_c_char_reg[27]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_ram_reg[0]' (FDE) to 'u1/vec_ram_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[0]' (FDE) to 'u1/vec_c_char_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[15]' (FDE) to 'u1/vec_c_char_reg[35]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[35]' (FDE) to 'u1/vec_c_char_reg[16]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[25]' (FDE) to 'u1/vec_c_char_reg[27]'
+INFO: [Synth 8-3886] merging instance 'CH31_reg[0]' (FDE) to 'CH31_reg[3]'
+INFO: [Synth 8-3886] merging instance 'CH30_reg[0]' (FDE) to 'CH30_reg[3]'
+INFO: [Synth 8-3886] merging instance 'CH28_reg[0]' (FDE) to 'CH28_reg[6]'
+INFO: [Synth 8-3886] merging instance 'CH27_reg[0]' (FDE) to 'CH27_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH24_reg[0]' (FDE) to 'CH24_reg[4]'
+INFO: [Synth 8-3886] merging instance 'CH23_reg[0]' (FDE) to 'CH23_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH16_reg[0]' (FDE) to 'CH20_reg[3]'
+INFO: [Synth 8-3886] merging instance 'CH15_reg[0]' (FDE) to 'CH15_reg[6]'
+INFO: [Synth 8-3886] merging instance 'CH12_reg[0]' (FDE) to 'CH12_reg[6]'
+INFO: [Synth 8-3886] merging instance 'CH4_reg[0]' (FDE) to 'CH4_reg[4]'
+INFO: [Synth 8-3886] merging instance 'CH2_reg[0]' (FDE) to 'CH14_reg[2]'
+INFO: [Synth 8-3886] merging instance 'CH1_reg[0]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[11]' (FDE) to 'u1/vec_c_char_reg[36]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[31]' (FDE) to 'u1/vec_c_char_reg[33]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[21]' (FDE) to 'u1/vec_c_char_reg[27]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_ram_reg[1]' (FDE) to 'u1/vec_ram_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[26]' (FDE) to 'u1/vec_c_char_reg[27]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[22]' (FDE) to 'u1/vec_c_char_reg[27]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u1/vec_ram_reg[2] )
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[17]' (FDE) to 'u1/vec_c_char_reg[7]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[37]' (FDE) to 'u1/vec_c_char_reg[39]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[33]' (FDE) to 'u1/vec_c_char_reg[28]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[23]' (FDE) to 'u1/vec_c_char_reg[19]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[38]' (FDE) to 'u1/vec_c_char_reg[39]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[14]' (FDE) to 'u1/vec_c_char_reg[9]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[24]' (FDE) to 'u1/vec_c_char_reg[29]'
+INFO: [Synth 8-3886] merging instance 'u1/vec_c_char_reg[34]' (FDE) to 'u1/vec_c_char_reg[39]'
+INFO: [Synth 8-3886] merging instance 'CH31_reg[6]' (FDE) to 'CH31_reg[3]'
+INFO: [Synth 8-3886] merging instance 'CH30_reg[6]' (FDE) to 'CH30_reg[2]'
+INFO: [Synth 8-3886] merging instance 'CH27_reg[6]' (FDE) to 'CH27_reg[2]'
+INFO: [Synth 8-3886] merging instance 'CH18_reg[6]' (FDE) to 'CH32_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH17_reg[6]' (FDE) to 'CH32_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH13_reg[6]' (FDE) to 'CH32_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH8_reg[6]' (FDE) to 'CH14_reg[2]'
+INFO: [Synth 8-3886] merging instance 'CH2_reg[6]' (FDE) to 'CH14_reg[2]'
+INFO: [Synth 8-3886] merging instance 'CH1_reg[6]' (FDE) to 'CH14_reg[2]'
+INFO: [Synth 8-3886] merging instance 'CH32_reg[4]' (FDE) to 'CH32_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH31_reg[4]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH30_reg[4]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH28_reg[4]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH23_reg[4]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH19_reg[4]' (FDE) to 'CH3_reg[4]'
+INFO: [Synth 8-3886] merging instance 'CH17_reg[4]' (FDE) to 'CH29_reg[3]'
+INFO: [Synth 8-3886] merging instance 'CH15_reg[4]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH12_reg[4]' (FDE) to 'CH29_reg[3]'
+INFO: [Synth 8-3886] merging instance 'CH9_reg[4]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH6_reg[4]' (FDE) to 'CH6_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH2_reg[4]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH32_reg[3]' (FDE) to 'CH32_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH29_reg[3]' (FDE) to 'CH1_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH26_reg[3]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH24_reg[3]' (FDE) to 'CH24_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH23_reg[3]' (FDE) to 'CH23_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH21_reg[3]' (FDE) to 'CH21_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH17_reg[3]' (FDE) to 'CH17_reg[2]'
+INFO: [Synth 8-3886] merging instance 'CH16_reg[3]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH15_reg[3]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH6_reg[3]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH5_reg[3]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH3_reg[3]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH32_reg[2]' (FDE) to 'CH32_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH31_reg[2]' (FDE) to 'CH31_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH28_reg[2]' (FDE) to 'CH28_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH23_reg[2]' (FDE) to 'CH23_reg[1]'
+INFO: [Synth 8-3886] merging instance 'CH15_reg[2]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH14_reg[2]' (FDE) to 'CH13_reg[2]'
+INFO: [Synth 8-3886] merging instance 'CH12_reg[2]' (FDE) to 'CH12_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH30_reg[1]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH15_reg[1]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH5_reg[1]' (FDE) to 'CH32_reg[7]'
+INFO: [Synth 8-3886] merging instance 'CH32_reg[5]' (FDE) to 'CH31_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH31_reg[5]' (FDE) to 'CH30_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH30_reg[5]' (FDE) to 'CH29_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH29_reg[5]' (FDE) to 'CH28_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH28_reg[5]' (FDE) to 'CH27_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH27_reg[5]' (FDE) to 'CH26_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH26_reg[5]' (FDE) to 'CH25_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH25_reg[5]' (FDE) to 'CH24_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH24_reg[5]' (FDE) to 'CH22_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH22_reg[5]' (FDE) to 'CH21_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH21_reg[5]' (FDE) to 'CH20_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH20_reg[5]' (FDE) to 'CH19_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH19_reg[5]' (FDE) to 'CH18_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH18_reg[5]' (FDE) to 'CH16_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH16_reg[5]' (FDE) to 'CH15_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH15_reg[5]' (FDE) to 'CH14_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH14_reg[5]' (FDE) to 'CH11_reg[5]'
+INFO: [Synth 8-3886] merging instance 'CH11_reg[5]' (FDE) to 'CH10_reg[5]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CH1_reg[7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u1/ciclo_enable_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u1/RW_reg )
+WARNING: [Synth 8-3332] Sequential element (u1/RW_reg) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/ciclo_enable_reg[16]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/BD_LCD_reg[7]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/BD_LCD_reg[6]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/BD_LCD_reg[5]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/BD_LCD_reg[4]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/BD_LCD_reg[3]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/BD_LCD_reg[2]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/BD_LCD_reg[1]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/BD_LCD_reg[0]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (u1/vec_ram_reg[2]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (TC1/Inst_TWICtl/int_Rst_reg) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (TC1/Inst_TWICtl/currAddr_reg[5]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (TC1/Inst_TWICtl/currAddr_reg[4]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (TC1/temp_reg[7]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (TC1/tempReg_reg[15]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (TC1/tempReg_reg[2]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (TC1/tempReg_reg[1]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (TC1/tempReg_reg[0]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (bcdtemp/bcds_reg[19]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (bcdtemp/bcds_reg[18]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (bcdtemp/bcds_reg[17]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (bcdtemp/bcds_reg[16]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (bcdtemp/bcds_out_reg_reg[19]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (bcdtemp/bcds_out_reg_reg[18]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (bcdtemp/bcds_out_reg_reg[17]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (bcdtemp/bcds_out_reg_reg[16]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+WARNING: [Synth 8-3332] Sequential element (CH1_reg[7]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u1/vec_c_char_reg[13] )
+WARNING: [Synth 8-3332] Sequential element (u1/vec_c_char_reg[13]) is unused and will be removed from module LIB_LCD_INTESC_REVD.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 794.305 ; gain = 536.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++--------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name         | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|LIB_LCD_INTESC_REVD | A*(B:0x271) | 12     | 10     | -      | -      | 22     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++--------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 819.387 ; gain = 561.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:34 . Memory (MB): peak = 847.371 ; gain = 589.320
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 865.031 ; gain = 606.980
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 865.031 ; gain = 606.980
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 865.031 ; gain = 606.980
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 865.031 ; gain = 606.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 865.031 ; gain = 606.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 865.031 ; gain = 606.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 865.031 ; gain = 606.980
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |    80|
+|3     |DSP48E1 |     1|
+|4     |LUT1    |    67|
+|5     |LUT2    |   175|
+|6     |LUT3    |   162|
+|7     |LUT4    |   121|
+|8     |LUT5    |   141|
+|9     |LUT6    |   331|
+|10    |MUXF7   |    24|
+|11    |MUXF8   |     4|
+|12    |FDRE    |   311|
+|13    |FDSE    |    34|
+|14    |FD_1    |     3|
+|15    |IBUF    |     3|
+|16    |IOBUF   |     2|
+|17    |OBUF    |    29|
++------+--------+------+
+
+Report Instance Areas: 
++------+----------------+--------------------+------+
+|      |Instance        |Module              |Cells |
++------+----------------+--------------------+------+
+|1     |top             |                    |  1489|
+|2     |  OS1           |one_shot            |     8|
+|3     |  TC1           |TempSensorCtl       |   279|
+|4     |    Inst_TWICtl |TWICtl              |   208|
+|5     |  bcdtemp       |binary_bcd          |   172|
+|6     |  u1            |PROCESADOR_LCD_REVD |   567|
++------+----------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 865.031 ; gain = 606.980
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 30 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:29 . Memory (MB): peak = 865.031 ; gain = 249.227
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 865.031 ; gain = 606.980
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 117 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 5 instances were transformed.
+  FD_1 => FDRE (inverted pins: C): 3 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+214 Infos, 38 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 865.031 ; gain = 619.852
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/L03068681/Contacts/Desktop/Eqiupo1/intento final 2/Referencia LCD/PFV3RaulSebas/PFV3RaulSebas.runs/synth_1/LIB_LCD_INTESC_REVD.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file LIB_LCD_INTESC_REVD_utilization_synth.rpt -pb LIB_LCD_INTESC_REVD_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 865.031 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Dec  4 14:30:48 2020...

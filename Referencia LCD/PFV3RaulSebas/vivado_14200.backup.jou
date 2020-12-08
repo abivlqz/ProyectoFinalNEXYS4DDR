@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Dec  2 18:15:01 2020
+# Process ID: 14200
+# Current directory: C:/Users/L03068681/Contacts/Desktop/PFV3RaulSebas
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11704 C:\Users\L03068681\Contacts\Desktop\PFV3RaulSebas\PFV3RaulSebas.xpr
+# Log file: C:/Users/L03068681/Contacts/Desktop/PFV3RaulSebas/vivado.log
+# Journal file: C:/Users/L03068681/Contacts/Desktop/PFV3RaulSebas\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/L03068681/Contacts/Desktop/PFV3RaulSebas/PFV3RaulSebas.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1

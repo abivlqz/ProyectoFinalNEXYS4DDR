@@ -1,0 +1,100 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Fri Dec  4 14:31:54 2020
+| Host         : MTYA7435-08 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file LIB_LCD_INTESC_REVD_control_sets_placed.rpt
+| Design       : LIB_LCD_INTESC_REVD
+| Device       : xc7a100t
+------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    30 |
+| Unused register locations in slices containing registers |    88 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            5 |
+|      6 |            1 |
+|      8 |            5 |
+|     10 |            1 |
+|     12 |            3 |
+|     14 |            1 |
+|    16+ |           14 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              80 |           21 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              90 |           12 |
+| Yes          | No                    | No                     |             424 |           88 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             134 |           25 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+-------------------------------------------+-------------------------------+------------------+----------------+
+|  Clock Signal  |               Enable Signal               |        Set/Reset Signal       | Slice Load Count | Bel Load Count |
++----------------+-------------------------------------------+-------------------------------+------------------+----------------+
+|  CLK_IBUF_BUFG | OS1/P1_reg                                |                               |                1 |              2 |
+|  CLK_IBUF_BUFG | OS1/P2_reg                                |                               |                1 |              2 |
+|  CLK_IBUF_BUFG | OS1/P3_reg                                |                               |                1 |              2 |
+|  CLK_IBUF_BUFG | u1/RS_i_2_n_0                             | u1/RS_i_1_n_0                 |                1 |              2 |
+|  CLK_IBUF_BUFG | TC1/Inst_TWICtl/tempReg0                  | TC1/fReady0                   |                1 |              2 |
+| ~CLK_IBUF_BUFG |                                           |                               |                1 |              6 |
+|  CLK_IBUF_BUFG | CH1                                       | CH12[3]_i_1_n_0               |                2 |              8 |
+|  CLK_IBUF_BUFG | CH1                                       | CH8[3]_i_1_n_0                |                3 |              8 |
+|  CLK_IBUF_BUFG | TC1/retryCnt[3]_i_2_n_0                   | TC1/retryCnt[3]_i_1_n_0       |                1 |              8 |
+|  CLK_IBUF_BUFG | OS1/E[0]                                  |                               |                2 |              8 |
+|  CLK_IBUF_BUFG | TC1/Inst_TWICtl/FSM_gray_state[3]_i_1_n_0 |                               |                2 |              8 |
+|  CLK_IBUF_BUFG | CH1                                       | CH4[2]_i_1_n_0                |                5 |             10 |
+|  CLK_IBUF_BUFG | u1/FSM_sequential_edo[5]_i_1_n_0          |                               |                5 |             12 |
+|  CLK_IBUF_BUFG | u1/dir_mem_s[5]_i_1_n_0                   |                               |                3 |             12 |
+|  CLK_IBUF_BUFG | u1/dir_salto_mem[5]_i_1_n_0               |                               |                2 |             12 |
+|  CLK_IBUF_BUFG | TC1/Inst_TWICtl/temp_reg[0]               |                               |                4 |             14 |
+|  CLK_IBUF_BUFG |                                           | TC1/Inst_TWICtl/busFreeCnt0_1 |                2 |             16 |
+|  CLK_IBUF_BUFG | u1/DATA[7]_i_1_n_0                        |                               |                8 |             16 |
+|  CLK_IBUF_BUFG | u1/data_s[7]_i_1_n_0                      |                               |                2 |             16 |
+|  CLK_IBUF_BUFG | TC1/Inst_TWICtl/dataByte[7]_i_1_n_0       |                               |                4 |             16 |
+|  CLK_IBUF_BUFG | TC1/Inst_TWICtl/sclCnt[7]_i_2_n_0         | TC1/Inst_TWICtl/sclCnt0_0     |                2 |             16 |
+|  CLK_IBUF_BUFG | u1/vec_ram[6]_i_1_n_0                     |                               |                6 |             18 |
+|  CLK_IBUF_BUFG |                                           | TC1/clear                     |                5 |             34 |
+|  CLK_IBUF_BUFG | u1/conta_enable[0]_i_2_n_0                | u1/conta_enable               |                5 |             34 |
+|  CLK_IBUF_BUFG |                                           | TC1/Inst_TWICtl/p_2_out       |                5 |             40 |
+|  CLK_IBUF_BUFG | u1/conta_delay[22]_i_2_n_0                | u1/conta_delay[22]_i_1_n_0    |                5 |             46 |
+| ~CLK_IBUF_BUFG | bcdtemp/bcds_out_reg_next                 |                               |               10 |             64 |
+|  CLK_IBUF_BUFG |                                           |                               |               20 |             74 |
+| ~CLK_IBUF_BUFG | bcdtemp/shift_counter[4]_i_1_n_0          |                               |               13 |             74 |
+|  CLK_IBUF_BUFG | CH1                                       |                               |               24 |            148 |
++----------------+-------------------------------------------+-------------------------------+------------------+----------------+
+
+
